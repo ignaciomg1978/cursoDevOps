@@ -20,4 +20,4 @@ jobs:
         pip install pytest
     - name: Run tests
       run: |
-        pytest my-python-project/tests/
+        pytest /home/runner/work/cursoDevOps/cursoDevOps/my-python-project/tests/
