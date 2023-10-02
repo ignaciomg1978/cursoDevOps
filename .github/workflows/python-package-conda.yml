@@ -16,8 +16,9 @@ jobs:
       run: |
         #find / -name requirements.txt -type f
         python -m pip install --upgrade pip
-        pip install -r /home/runner/work/cursoDevOps/cursoDevOps/my-python-project/requirements.txt
+        #pip install -r /home/runner/work/cursoDevOps/cursoDevOps/my-python-project/requirements.txt
+        pip install -r requirements.txt
         pip install pytest
     - name: Run tests
       run: |
-        pytest /home/runner/work/cursoDevOps/cursoDevOps/my-python-project/test/
+        pytest test/
