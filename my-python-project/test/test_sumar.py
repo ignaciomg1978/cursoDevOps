@@ -1,4 +1,4 @@
-from my_python_code import sumar
+from ..my_python_code import sumar
 
 def test_sumar():
 	assert sumar(2, 3) == 5
